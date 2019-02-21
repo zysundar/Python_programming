@@ -1,0 +1,11 @@
+from Tkinter import*
+t=Tk()
+l=Label(t,text="user name")
+m=Label(t,text="password")
+l.pack(side=LEFT)
+m.pack(side=CENTER)
+e=Entry(t,bd=5)
+f=Entry(t,bd=6)
+e.pack(side=RIGHT)
+f.pack()
+t.mainloop()

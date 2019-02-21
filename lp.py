@@ -1,0 +1,5 @@
+f=open("ssss.sql","w")
+f.write("lovely professional university \n")
+f.write("sundaram mishra \n")
+f.write("section 1528")
+f.close()
