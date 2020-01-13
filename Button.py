@@ -1,10 +1,10 @@
 import Tkinter
 import tkMessageBox
-t=Tkinter.Tk()
+win = Tkinter.Tk()
 
-def f1():
-    
-    tkMessageBox.showinfo("sss")
-b=Tkinter.Button(t,text="press",command=f1)
-b.pack()
-t.mainloop()
+def func1():
+    tkMessageBox.showinfo("Hello There!!!")
+
+button1=Tkinter.Button(win,text="Click Here!",command=func1)
+button.pack()
+win.mainloop()
