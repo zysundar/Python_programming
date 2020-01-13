@@ -24,4 +24,5 @@ c=Child()
 c.Childhood()
 c.Parentmethod()
 c.Parentattr(200)
+
 c.Getattr()
